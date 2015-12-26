@@ -1,6 +1,6 @@
 == README
 
-Developer match app.
+Developer match application
 
 Things you may want to cover:
 
