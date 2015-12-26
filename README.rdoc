@@ -1,6 +1,6 @@
 == README
 
-Developer match application saas
+Developer match application saas.
 
 Things you may want to cover:
 
