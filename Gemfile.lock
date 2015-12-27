@@ -125,8 +125,13 @@ DEPENDENCIES
   pg
   rails (= 4.1.0)
   rails_12factor
+<<<<<<< HEAD
   sass-rails (= 4.0.3)
   sdoc (= 0.4.0)
+=======
+  sass-rails (~> 4.0.3)
+  sdoc (~> 0.4.0)
+>>>>>>> gemfilefix
   spring
   sqlite3
   turbolinks
