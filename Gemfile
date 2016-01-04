@@ -44,7 +44,7 @@ gem 'devise', '3.4.1'
 #Use Stripe for collecting payments. Turbolinks must be disabled when using Stripe.
 gem 'stripe', '1.16.1'
 
-# Use figaro to hide secret keys
+# Use figaro to hide secret keys from stripe
 gem 'figaro', '1.0.0'
 
 # Use ActiveModel has_secure_password
