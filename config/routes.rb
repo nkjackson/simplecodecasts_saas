@@ -5,6 +5,9 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   devise_for :users, controllers: {registrations: 'users/registrations' }
+  resources :users do
+    resource :profile
+  end
   resources :contacts
   get '/about' => 'pages#about'
   root 'pages#home'
